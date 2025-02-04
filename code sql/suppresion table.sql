@@ -1,0 +1,15 @@
+DROP TABLE Activite;
+DROP TABLE Caracteriser;
+DROP TABLE Effectuer;
+DROP TABLE Intervention;
+DROP TABLE Localisation;
+DROP TABLE Locataire;
+DROP TABLE Loisir;
+DROP TABLE Rencontre;
+DROP TABLE Reservation;
+DROP TABLE Resident;
+DROP TABLE Societe_exterieure;
+DROP TABLE Type ;
+DROP TABLE Interaction;
+DROP TABLE Lieu;
+DROP TABLE Logement;
