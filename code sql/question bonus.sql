@@ -1,3 +1,5 @@
+-- Cette fonction permet de vérifier la disponibilité d'un logement pour des dates données, d'ajouter une réservation si possible, et de mettre à jour les informations associées.
+
 CREATE OR REPLACE FUNCTION reserver(
     debut DATE,
     fin DATE,
