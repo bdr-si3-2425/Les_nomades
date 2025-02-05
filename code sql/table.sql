@@ -33,7 +33,7 @@ CREATE TABLE Reservation (
     id_reservation SERIAL PRIMARY KEY,
     debut DATE NOT NULL,
     fin DATE NOT NULL,
-    nombre_residant INT NOT NULL CHECK (nombre_residant > 0),
+    nombre_resident INT NOT NULL CHECK (nombre_resident > 0),
     prix DECIMAL(10,2) NOT NULL CHECK (prix > 0),
     prolongation BOOLEAN DEFAULT FALSE,
     id_logement INT REFERENCES Logement(id_logement) ON DELETE CASCADE,
